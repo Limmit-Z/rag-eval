@@ -1,0 +1,7 @@
+out/
+__pycache__/
+.env
+.pytest_cache/
+.envtmp/
+pip/
+.gitconfig-local

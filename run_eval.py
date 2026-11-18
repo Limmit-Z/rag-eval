@@ -49,9 +49,9 @@ def main():
         parser.error('weights must be nonnegative and not both zero')
     started = time.perf_counter()
     docs = ingest.main()
-    with (ROOT / '../data/golden.jsonl').open(encoding='utf-8') as f:
+    with (ROOT / 'data/golden.jsonl').open(encoding='utf-8') as f:
         gold = [json.loads(line) for line in f]
-    with (ROOT / '../data/corpus.jsonl').open(encoding='utf-8') as f:
+    with (ROOT / 'data/corpus.jsonl').open(encoding='utf-8') as f:
         categories = {x['path']: x['cat'] for x in map(json.loads, f)}
     runs, browser_chunks = [], {}
     for strategy in ('fixed', 'semantic', 'recursive'):

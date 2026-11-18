@@ -4,27 +4,25 @@
 
 ## 数据来源与许可
 
-语料来自 Vue 官方中文文档 [vuejs-translations/docs-zh-cn](https://github.com/vuejs-translations/docs-zh-cn)，以 CC BY 4.0 许可提供；署名：Yuxi (Evan) You and Vue documentation contributors。项目代码使用 MIT 许可；数据保留其原有许可，评测题由数据提供方人工撰写。运行时只读取仓库同级的 `data/corpus.jsonl`、`data/golden.jsonl` 及 `corpus/docs-zh-cn/src/`，不写入这些输入目录。
+语料来自 Vue 官方中文文档 [vuejs-translations/docs-zh-cn](https://github.com/vuejs-translations/docs-zh-cn)，以 CC BY 4.0 许可提供；署名：Yuxi (Evan) You and Vue documentation contributors。项目代码使用 MIT 许可；数据保留其原有许可，评测题由数据提供方人工撰写。数据与语料已随仓库提供：`data/`（评测题与文档元信息）、`corpus/docs-zh-cn/src/`（语料原文）与 `corpus/docs-zh-cn/LICENSE`（CC BY 4.0 许可文本）。运行时只读取这些输入，不写入。
 
 ## 评分规则原文
 
 > 对每道题，看召回的 Top-K 块——标准答案小节的内容**被单个块完整覆盖**记 2 分；**需要两个块合并才覆盖**记 1 分；否则 0 分。判定用字符串包含 + 归一化（去空白与标点）后的子串匹配，覆盖阈值取 `gold_excerpt` 的 80%。输出满分 100 的总分、命中率、以及按 `cat` 和 `has_code_block` 分组的明细。
 
-实际判定要求块属于黄金文档和标题路径；摘录归一化后任意连续 80% 子串被覆盖即达阈值。两块合并时尝试两种顺序并去除重叠。黄金摘录中的 `[代码块]` 在评分时对应完整代码块标记；代码原文仍保存在块中。命中率是得 1 分或 2 分的题目比例，满分率是得 2 分的题目比例。
+实际判定要求块属于黄金文档和标题路径；摘录归一化后按顺序做最长片段匹配（单片段最长 12 字），覆盖比例达到 80% 即达阈值，允许非连续覆盖。两块合并时把两块的归一化文本顺序拼接后整体匹配，并尝试去重叠的拼接方式。黄金摘录中的 `[代码块]` 在评分时对应完整代码块标记；代码原文仍保存在块中。命中率是得 1 分或 2 分的题目比例，满分率是得 2 分的题目比例。
 
 ## 复现
 
-将本仓库放在数据目录和语料目录的同级，目录结构如下：
+仓库自包含：语料与评测集都在仓库内，clone 后无需额外准备：
 
 ```text
-父目录/
-  rag-eval/
-  data/corpus.jsonl
-  data/golden.jsonl
-  corpus/docs-zh-cn/src/
+git clone https://github.com/<your-name>/rag-eval.git
+cd rag-eval
+python run_eval.py
 ```
 
-在 `rag-eval` 目录执行：
+运行测试（pytest 为唯一可选依赖）：
 
 ```sh
 python run_eval.py
@@ -40,4 +38,4 @@ pytest tests
 
 ## 已知局限
 
-语料来自单一领域，评测集仅 50 条；mock 嵌入是可复现的字符二元组哈希，不代表真实语义模型的效果。Markdown 解析面向本语料，不是完整 CommonMark 实现。评分只检查摘录的连续 80%，且依赖黄金文档、标题与占位符的质量，不能替代人工判断。页面展示检索分数，评测分数见报告。
+语料来自单一领域，评测集仅 50 条；mock 嵌入是可复现的字符二元组哈希，不代表真实语义模型的效果。Markdown 解析面向本语料，不是完整 CommonMark 实现。评分只统计摘录的顺序覆盖率（阈值 80%），且依赖黄金文档、标题与占位符的质量，不能替代人工判断。页面展示检索分数，评测分数见报告。

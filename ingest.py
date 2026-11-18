@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CORPUS = ROOT / '../corpus/docs-zh-cn/src'
+CORPUS = ROOT / 'corpus/docs-zh-cn/src'
 
 
 def clean_inline(text):
@@ -62,7 +62,7 @@ def parse_markdown(markdown, metadata):
 
 def load_documents():
     docs = []
-    with (ROOT / '../data/corpus.jsonl').open(encoding='utf-8') as source:
+    with (ROOT / 'data/corpus.jsonl').open(encoding='utf-8') as source:
         for line in source:
             meta = json.loads(line)
             path = (CORPUS / meta['path']).resolve()

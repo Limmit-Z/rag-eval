@@ -1,0 +1,108 @@
+{"doc_id": "d000", "cat": "guide", "path": "guide/best-practices/accessibility.md", "title": "无障碍访问 {#accessibility}", "chars": 15346}
+{"doc_id": "d001", "cat": "guide", "path": "guide/best-practices/performance.md", "title": "性能优化 {#performance}", "chars": 7886}
+{"doc_id": "d002", "cat": "guide", "path": "guide/best-practices/production-deployment.md", "title": "生产部署 {#production-deployment}", "chars": 1566}
+{"doc_id": "d003", "cat": "guide", "path": "guide/best-practices/security.md", "title": "安全 {#security}", "chars": 4880}
+{"doc_id": "d004", "cat": "guide", "path": "guide/built-ins/keep-alive.md", "title": "KeepAlive {#keepalive}", "chars": 4319}
+{"doc_id": "d005", "cat": "guide", "path": "guide/built-ins/suspense.md", "title": "Suspense {#suspense}", "chars": 4517}
+{"doc_id": "d006", "cat": "guide", "path": "guide/built-ins/teleport.md", "title": "Teleport {#teleport}", "chars": 4681}
+{"doc_id": "d007", "cat": "guide", "path": "guide/built-ins/transition-group.md", "title": "TransitionGroup {#transitiongroup}", "chars": 4419}
+{"doc_id": "d008", "cat": "guide", "path": "guide/built-ins/transition.md", "title": "Transition {#transition}", "chars": 21899}
+{"doc_id": "d009", "cat": "guide", "path": "guide/components/async.md", "title": "异步组件 {#async-components}", "chars": 4663}
+{"doc_id": "d010", "cat": "guide", "path": "guide/components/attrs.md", "title": "透传 Attributes {#fallthrough-attributes}", "chars": 4472}
+{"doc_id": "d011", "cat": "guide", "path": "guide/components/events.md", "title": "组件事件 {#component-events}", "chars": 5604}
+{"doc_id": "d012", "cat": "guide", "path": "guide/components/props.md", "title": "Props {#props}", "chars": 14742}
+{"doc_id": "d013", "cat": "guide", "path": "guide/components/provide-inject.md", "title": "依赖注入 {#provide-inject}", "chars": 8630}
+{"doc_id": "d014", "cat": "guide", "path": "guide/components/registration.md", "title": "组件注册 {#component-registration}", "chars": 2817}
+{"doc_id": "d015", "cat": "guide", "path": "guide/components/slots.md", "title": "插槽 Slots {#slots}", "chars": 18233}
+{"doc_id": "d016", "cat": "guide", "path": "guide/components/v-model.md", "title": "组件 v-model {#component-v-model}", "chars": 16479}
+{"doc_id": "d017", "cat": "guide", "path": "guide/essentials/application.md", "title": "创建一个 Vue 应用 {#creating-a-vue-application}", "chars": 2365}
+{"doc_id": "d018", "cat": "guide", "path": "guide/essentials/class-and-style.md", "title": "Class 与 Style 绑定 {#class-and-style-bindings}", "chars": 5764}
+{"doc_id": "d019", "cat": "guide", "path": "guide/essentials/component-basics.md", "title": "组件基础 {#components-basics}", "chars": 17538}
+{"doc_id": "d020", "cat": "guide", "path": "guide/essentials/computed.md", "title": "计算属性 {#computed-properties}", "chars": 8177}
+{"doc_id": "d021", "cat": "guide", "path": "guide/essentials/conditional.md", "title": "条件渲染 {#conditional-rendering}", "chars": 2766}
+{"doc_id": "d022", "cat": "guide", "path": "guide/essentials/event-handling.md", "title": "事件处理 {#event-handling}", "chars": 8454}
+{"doc_id": "d023", "cat": "guide", "path": "guide/essentials/forms.md", "title": "表单输入绑定 {#form-input-bindings}", "chars": 14482}
+{"doc_id": "d024", "cat": "guide", "path": "guide/essentials/lifecycle.md", "title": "生命周期钩子 {#lifecycle-hooks}", "chars": 2097}
+{"doc_id": "d025", "cat": "guide", "path": "guide/essentials/list.md", "title": "列表渲染 {#list-rendering}", "chars": 10601}
+{"doc_id": "d026", "cat": "guide", "path": "guide/essentials/reactivity-fundamentals.md", "title": "响应式基础 {#reactivity-fundamentals}", "chars": 12812}
+{"doc_id": "d027", "cat": "guide", "path": "guide/essentials/template-refs.md", "title": "模板引用 {#template-refs}", "chars": 6765}
+{"doc_id": "d028", "cat": "guide", "path": "guide/essentials/template-syntax.md", "title": "模板语法 {#template-syntax}", "chars": 7590}
+{"doc_id": "d029", "cat": "guide", "path": "guide/essentials/watchers.md", "title": "侦听器 {#watchers}", "chars": 13144}
+{"doc_id": "d030", "cat": "guide", "path": "guide/extras/animation.md", "title": "动画技巧 {#animation-techniques}", "chars": 4474}
+{"doc_id": "d031", "cat": "guide", "path": "guide/extras/composition-api-faq.md", "title": "组合式 API 常见问答 {#composition-api-faq}", "chars": 6961}
+{"doc_id": "d032", "cat": "guide", "path": "guide/extras/reactivity-in-depth.md", "title": "深入响应式系统 {#reactivity-in-depth}", "chars": 15510}
+{"doc_id": "d033", "cat": "guide", "path": "guide/extras/reactivity-transform.md", "title": "响应性语法糖 {#reactivity-transform}", "chars": 6744}
+{"doc_id": "d034", "cat": "guide", "path": "guide/extras/render-function.md", "title": "渲染函数 & JSX {#render-functions-jsx}", "chars": 15630}
+{"doc_id": "d035", "cat": "guide", "path": "guide/extras/rendering-mechanism.md", "title": "渲染机制 {#rendering-mechanism}", "chars": 5861}
+{"doc_id": "d036", "cat": "guide", "path": "guide/extras/ways-of-using-vue.md", "title": "使用 Vue 的多种方式 {#ways-of-using-vue}", "chars": 2805}
+{"doc_id": "d037", "cat": "guide", "path": "guide/extras/web-components.md", "title": "Vue 与 Web Components {#vue-and-web-components}", "chars": 14353}
+{"doc_id": "d038", "cat": "guide", "path": "guide/introduction.md", "title": "简介 {#introduction}", "chars": 7559}
+{"doc_id": "d039", "cat": "guide", "path": "guide/quick-start.md", "title": "快速上手 {#quick-start}", "chars": 12035}
+{"doc_id": "d040", "cat": "guide", "path": "guide/reusability/composables.md", "title": "组合式函数 {#composables}", "chars": 11837}
+{"doc_id": "d041", "cat": "guide", "path": "guide/reusability/custom-directives.md", "title": "自定义指令 {#custom-directives}", "chars": 5254}
+{"doc_id": "d042", "cat": "guide", "path": "guide/reusability/plugins.md", "title": "插件 {#plugins}", "chars": 2970}
+{"doc_id": "d043", "cat": "guide", "path": "guide/scaling-up/routing.md", "title": "路由 {#routing}", "chars": 3797}
+{"doc_id": "d044", "cat": "guide", "path": "guide/scaling-up/sfc.md", "title": "单文件组件 {#single-file-components}", "chars": 2809}
+{"doc_id": "d045", "cat": "guide", "path": "guide/scaling-up/ssr.md", "title": "服务端渲染 (SSR) {#server-side-rendering-ssr}", "chars": 11108}
+{"doc_id": "d046", "cat": "guide", "path": "guide/scaling-up/state-management.md", "title": "状态管理 {#state-management}", "chars": 5230}
+{"doc_id": "d047", "cat": "guide", "path": "guide/scaling-up/testing.md", "title": "测试 {#testing}", "chars": 12219}
+{"doc_id": "d048", "cat": "guide", "path": "guide/scaling-up/tooling.md", "title": "工具链 {#tooling}", "chars": 7041}
+{"doc_id": "d049", "cat": "guide", "path": "guide/typescript/composition-api.md", "title": "TypeScript 与组合式 API {#typescript-with-composition-api}", "chars": 11108}
+{"doc_id": "d050", "cat": "guide", "path": "guide/typescript/options-api.md", "title": "TypeScript 与选项式 API {#typescript-with-options-api}", "chars": 6743}
+{"doc_id": "d051", "cat": "guide", "path": "guide/typescript/overview.md", "title": "搭配 TypeScript 使用 Vue {#using-vue-with-typescript}", "chars": 6704}
+{"doc_id": "d052", "cat": "api", "path": "api/application.md", "title": "应用实例 API {#application-api}", "chars": 12194}
+{"doc_id": "d053", "cat": "api", "path": "api/built-in-components.md", "title": "内置组件 {#built-in-components}", "chars": 6610}
+{"doc_id": "d054", "cat": "api", "path": "api/built-in-directives.md", "title": "内置指令 {#built-in-directives}", "chars": 11535}
+{"doc_id": "d055", "cat": "api", "path": "api/built-in-special-attributes.md", "title": "内置的特殊 Attributes {#built-in-special-attributes}", "chars": 2514}
+{"doc_id": "d056", "cat": "api", "path": "api/built-in-special-elements.md", "title": "内置特殊元素 {#built-in-special-elements}", "chars": 3426}
+{"doc_id": "d057", "cat": "api", "path": "api/compile-time-flags.md", "title": "编译时标志 {#compile-time-flags}", "chars": 2310}
+{"doc_id": "d058", "cat": "api", "path": "api/component-instance.md", "title": "组件实例 {#component-instance}", "chars": 5982}
+{"doc_id": "d059", "cat": "api", "path": "api/composition-api-dependency-injection.md", "title": "组合式 API：依赖注入 {#composition-api-dependency-injection}", "chars": 2844}
+{"doc_id": "d060", "cat": "api", "path": "api/composition-api-helpers.md", "title": "组合式 API：辅助 {#composition-api-helpers}", "chars": 3200}
+{"doc_id": "d061", "cat": "api", "path": "api/composition-api-lifecycle.md", "title": "组合式 API：生命周期钩子 {#composition-api-lifecycle-hooks}", "chars": 6821}
+{"doc_id": "d062", "cat": "api", "path": "api/composition-api-setup.md", "title": "组合式 API：setup() {#composition-api-setup}", "chars": 3693}
+{"doc_id": "d063", "cat": "api", "path": "api/custom-elements.md", "title": "自定义元素 API {#custom-elements-api}", "chars": 2252}
+{"doc_id": "d064", "cat": "api", "path": "api/custom-renderer.md", "title": "自定义渲染器 API {#custom-renderer-api}", "chars": 2261}
+{"doc_id": "d065", "cat": "api", "path": "api/general.md", "title": "全局 API：常规 {#global-api-general}", "chars": 4664}
+{"doc_id": "d066", "cat": "api", "path": "api/options-composition.md", "title": "组合选项 {#options-composition}", "chars": 4282}
+{"doc_id": "d067", "cat": "api", "path": "api/options-lifecycle.md", "title": "生命周期选项 {#options-lifecycle}", "chars": 6714}
+{"doc_id": "d068", "cat": "api", "path": "api/options-misc.md", "title": "其他杂项选项 {#options-misc}", "chars": 3087}
+{"doc_id": "d069", "cat": "api", "path": "api/options-rendering.md", "title": "渲染选项 {#options-rendering}", "chars": 2655}
+{"doc_id": "d070", "cat": "api", "path": "api/options-state.md", "title": "状态选项 {#options-state}", "chars": 9838}
+{"doc_id": "d071", "cat": "api", "path": "api/reactivity-advanced.md", "title": "响应式 API：进阶 {#reactivity-api-advanced}", "chars": 8262}
+{"doc_id": "d072", "cat": "api", "path": "api/reactivity-core.md", "title": "响应式 API：核心 {#reactivity-api-core}", "chars": 11624}
+{"doc_id": "d073", "cat": "api", "path": "api/reactivity-utilities.md", "title": "响应式 API：工具函数 {#reactivity-api-utilities}", "chars": 5326}
+{"doc_id": "d074", "cat": "api", "path": "api/render-function.md", "title": "渲染函数 API {#render-function-apis}", "chars": 5763}
+{"doc_id": "d075", "cat": "api", "path": "api/sfc-css-features.md", "title": "单文件组件 CSS 功能 {#sfc-css-features}", "chars": 3887}
+{"doc_id": "d076", "cat": "api", "path": "api/sfc-script-setup.md", "title": "\\<script setup> {#script-setup}", "chars": 13100}
+{"doc_id": "d077", "cat": "api", "path": "api/sfc-spec.md", "title": "单文件组件语法定义 {#sfc-syntax-specification}", "chars": 3678}
+{"doc_id": "d078", "cat": "api", "path": "api/ssr.md", "title": "服务端渲染 API {#server-side-rendering-api}", "chars": 4684}
+{"doc_id": "d079", "cat": "api", "path": "api/utility-types.md", "title": "TypeScript 工具类型 {#utility-types}", "chars": 4062}
+{"doc_id": "d080", "cat": "tutorial", "path": "tutorial/index.md", "title": "index", "chars": 434}
+{"doc_id": "d081", "cat": "tutorial", "path": "tutorial/src/step-1/description.md", "title": "开始 {#getting-started}", "chars": 1470}
+{"doc_id": "d082", "cat": "tutorial", "path": "tutorial/src/step-10/description.md", "title": "侦听器 {#watchers}", "chars": 969}
+{"doc_id": "d083", "cat": "tutorial", "path": "tutorial/src/step-11/description.md", "title": "组件 {#components}", "chars": 891}
+{"doc_id": "d084", "cat": "tutorial", "path": "tutorial/src/step-12/description.md", "title": "Props {#props}", "chars": 955}
+{"doc_id": "d085", "cat": "tutorial", "path": "tutorial/src/step-13/description.md", "title": "Emits {#emits}", "chars": 1008}
+{"doc_id": "d086", "cat": "tutorial", "path": "tutorial/src/step-14/description.md", "title": "插槽 {#slots}", "chars": 655}
+{"doc_id": "d087", "cat": "tutorial", "path": "tutorial/src/step-2/description.md", "title": "声明式渲染 {#declarative-rendering}", "chars": 2446}
+{"doc_id": "d088", "cat": "tutorial", "path": "tutorial/src/step-3/description.md", "title": "Attribute 绑定 {#attribute-bindings}", "chars": 673}
+{"doc_id": "d089", "cat": "tutorial", "path": "tutorial/src/step-4/description.md", "title": "事件监听 {#event-listeners}", "chars": 1490}
+{"doc_id": "d090", "cat": "tutorial", "path": "tutorial/src/step-5/description.md", "title": "表单绑定 {#form-bindings}", "chars": 759}
+{"doc_id": "d091", "cat": "tutorial", "path": "tutorial/src/step-6/description.md", "title": "条件渲染 {#conditional-rendering}", "chars": 641}
+{"doc_id": "d092", "cat": "tutorial", "path": "tutorial/src/step-7/description.md", "title": "列表渲染 {#list-rendering}", "chars": 1115}
+{"doc_id": "d093", "cat": "tutorial", "path": "tutorial/src/step-8/description.md", "title": "计算属性 {#computed-property}", "chars": 1823}
+{"doc_id": "d094", "cat": "tutorial", "path": "tutorial/src/step-9/description.md", "title": "生命周期和模板引用 {#lifecycle-and-template-refs}", "chars": 1892}
+{"doc_id": "d095", "cat": "style-guide", "path": "style-guide/index.md", "title": "Style Guide {#style-guide}", "chars": 2715}
+{"doc_id": "d096", "cat": "style-guide", "path": "style-guide/rules-essential.md", "title": "Priority A Rules: Essential {#priority-a-rules-essential}", "chars": 9273}
+{"doc_id": "d097", "cat": "style-guide", "path": "style-guide/rules-recommended.md", "title": "Priority C Rules: Recommended {#priority-c-rules-recommended}", "chars": 6656}
+{"doc_id": "d098", "cat": "style-guide", "path": "style-guide/rules-strongly-recommended.md", "title": "Priority B Rules: Strongly Recommended {#priority-b-rules-strongly-recommended}", "chars": 21118}
+{"doc_id": "d099", "cat": "style-guide", "path": "style-guide/rules-use-with-caution.md", "title": "Priority D Rules: Use with Caution {#priority-d-rules-use-with-caution}", "chars": 4938}
+{"doc_id": "d100", "cat": "glossary", "path": "glossary/index.md", "title": "术语表 {#glossary}", "chars": 13028}
+{"doc_id": "d101", "cat": "error-reference", "path": "error-reference/index.md", "title": "生产环境错误代码参考 {#error-reference}", "chars": 808}
+{"doc_id": "d102", "cat": "about", "path": "about/coc.md", "title": "行为规范 {#code-of-conduct}", "chars": 1244}
+{"doc_id": "d103", "cat": "about", "path": "about/community-guide.md", "title": "社区指南 {#community-guide}", "chars": 2980}
+{"doc_id": "d104", "cat": "about", "path": "about/faq.md", "title": "常见问题 {#frequently-asked-questions}", "chars": 4948}
+{"doc_id": "d105", "cat": "about", "path": "about/privacy.md", "title": "Vue.js 隐私政策 {#vue.js-privacy-policy}", "chars": 1612}
+{"doc_id": "d106", "cat": "about", "path": "about/releases.md", "title": "版本发布 {#releases}", "chars": 2411}
+{"doc_id": "d107", "cat": "about", "path": "about/translation.md", "title": "翻译说明", "chars": 6804}
